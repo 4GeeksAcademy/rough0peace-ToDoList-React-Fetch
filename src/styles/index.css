@@ -9,3 +9,44 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+body {
+    margin: 100px;
+}
+.container{
+    max-width: 400px;
+    border: lightgray 2px solid;
+    font-family: cursive;
+    background-color: lightyellow;
+}
+ul {
+    padding: 0;
+    margin: 0;
+}
+ul li {
+    text-align: center;
+    list-style: none;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 10px;
+}
+input {
+    width: 80%;
+    outline: none;
+    border: none;
+    border-bottom: lightgray 1px solid;
+    margin-right: 10px;
+    background-color: lightyellow;
+}
+.button {
+    width: auto;
+}
+.list-group-item {
+    border-bottom: lightgray 1px solid;
+    margin: 10px;
+}
+.number-of-tasks{
+    margin: 10px;
+}
