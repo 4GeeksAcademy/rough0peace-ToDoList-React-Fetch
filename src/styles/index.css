@@ -47,6 +47,12 @@ input {
     border-bottom: lightgray 1px solid;
     margin: 10px;
 }
+.list-group-item:hover .btn-close{
+    display: inline-block;
+}
+.btn-close{
+    display: none;
+}
 .number-of-tasks{
     margin: 10px;
 }
