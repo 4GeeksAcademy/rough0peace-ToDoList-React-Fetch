@@ -127,6 +127,9 @@ function ToDoList() {
           );
         })}
       </ul>
+      <div className="number-of-tasks d-flex justify-content-start">
+        {list.length} tasks 
+      </div>
     </div>
   );
 }

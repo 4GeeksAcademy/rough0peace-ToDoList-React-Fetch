@@ -22,9 +22,6 @@ const Home = () => {
       <ul>
         <li><ToDoList /></li>
       </ul>
-      <div className="number-of-tasks">
-        # tasks 
-      </div>
     </div>
   )
 };
